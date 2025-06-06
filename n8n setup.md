@@ -9,13 +9,19 @@
 - attach security group to the EC2 instance
 
 # Install approproach packages
-- go to the home directory by typing `cd ~
-- open the .bashrc file `nano .bashrc
-- At the buttom of the file, type the following
-` export N8N_SECURE_COOKIE=false
-- update packages by running folowing command `sudo apt update
-- install node package manager `sudo apt install npm
+- go to the home directory by typing 
+<pre><code>bash cd ~ </code></pre>
 
+- open the .bashrc file
+<pre><code>nano .bashrc</code></pre>
+
+- At the buttom of the file, type the following
+ <pre><code>export N8N_SECURE_COOKIE=false</code></pre>
+- update packages by running folowing command 
+ <pre><code>sudo apt update</code></pre>
+
+- install node package manager
+<pre><code>sudo apt install npm</code></pre>
 # Start n8n Server
 - install and run server with following command
-`npx n8n
+<pre><code>npx n8n</code></pre>
